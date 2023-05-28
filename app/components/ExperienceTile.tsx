@@ -18,18 +18,6 @@ const items = [
     title: "Lorem Ipsum",
     summary: <>20XX-</>,
   },
-  {
-    name: "",
-    icon: (
-      <Image
-        className="h-11 w-11 rounded-lg"
-        src={Avatar}
-        alt="Subjective World"
-      />
-    ),
-    title: "Lorem Ipsum",
-    summary: <>20XX-20XX</>,
-  },
 ];
 
 export default function BlogTile({ className }: { className?: string }) {
