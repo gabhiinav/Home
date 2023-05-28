@@ -15,8 +15,8 @@ const items = [
         alt="Subjective World"
       />
     ),
-    title: "Senior",
-    summary: <>2027-</>,
+    title: "Lorem Ipsum",
+    summary: <>20XX-</>,
   },
   {
     name: "",
@@ -27,20 +27,8 @@ const items = [
         alt="Subjective World"
       />
     ),
-    title: "Junior",
-    summary: <>2024-2027</>,
-  },
-  {
-    name: "subjective-world",
-    icon: (
-      <Image
-        className="h-11 w-11 rounded-lg"
-        src={Avatar}
-        alt="Subjective World"
-      />
-    ),
-    title: "Intern",
-    summary: <>2023-2024</>,
+    title: "Lorem Ipsum",
+    summary: <>20XX-20XX</>,
   },
 ];
 

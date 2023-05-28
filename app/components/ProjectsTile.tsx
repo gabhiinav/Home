@@ -2,39 +2,23 @@
 
 import Tile from "./Tile";
 import Image from "next/image";
-import Avatar from "../../public/avatar.png";
+import avatar from "../../public/avatar.png";
+import chirp from "../../public/chirp.png"
 import { useState } from "react";
 import classNames from "classnames";
 
 const items = [
   {
     name: "chirp",
-    icon: (
-      <Image
-        className="h-11 w-11 rounded-lg"
-        src={Avatar}
-        alt="AssisChat App"
-      />
-    ),
-    url: "",
+    icon: <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Chirp" />,
+    url: "https://chirp-eight-lovat.vercel.app/",
     title: "Chirp",
-    summary: <>Minimal MessageBoard</>,
+    summary: <>Minimal Message Board</>,
   },
   {
     name: "home",
-    icon: (
-      <Image className="h-11 w-11 rounded-lg" src={Avatar} alt="Kosto App" />
-    ),
-    url: "https://lofyee.com",
-    title: "Home",
-    summary: <>Personal Website</>,
-  },
-  {
-    name: "home",
-    icon: (
-      <Image className="h-11 w-11 rounded-lg" src={Avatar} alt="Kosto App" />
-    ),
-    url: "https://lofyee.com",
+    icon: <Image className="h-11 w-11 rounded-lg" src={avatar} alt="Home" />,
+    url: "",
     title: "Home",
     summary: <>Personal Website</>,
   },
