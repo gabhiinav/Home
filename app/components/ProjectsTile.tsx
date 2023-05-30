@@ -11,7 +11,7 @@ const items = [
   {
     name: "chirp",
     icon: <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Chirp" />,
-    url: "https://chirp-eight-lovat.vercel.app/",
+    url: "https://chirp-kohl-gamma.vercel.app/",
     title: "Chirp",
     summary: <>Minimal Message Board</>,
   },
