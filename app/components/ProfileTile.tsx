@@ -41,7 +41,7 @@ export default function ProfileTile({ className }: { className?: string }) {
       back={
         <Tile className="flex h-full flex-col items-center justify-center bg-violet-200/10">
           <div>
-            <p></p>
+            <p>CS Student.</p>
 
             <p className="mt-3"></p>
             <p className=""></p>

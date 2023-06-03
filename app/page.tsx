@@ -28,7 +28,7 @@ export default function Home() {
       </main>
 
       <footer className="text-md py-10 text-center text-sm opacity-60">
-        © 2023 Abhinav
+        2023
       </footer>
     </div>
   );
