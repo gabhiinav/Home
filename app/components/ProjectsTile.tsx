@@ -4,10 +4,18 @@ import Tile from "./Tile";
 import Image from "next/image";
 import avatar from "../../public/avatar.png";
 import chirp from "../../public/chirp.png"
+import forums from "../../public/forums.png";
 import { useState } from "react";
 import classNames from "classnames";
 
 const items = [
+  {
+    name: "forums",
+    icon: <Image className="h-11 w-11 rounded-lg" src={forums} alt="Forums" />,
+    url: "https://forums-xi.vercel.app/",
+    title: "Forums",
+    summary: <>Reddit-Clone</>,
+  },
   {
     name: "chirp",
     icon: <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Chirp" />,
