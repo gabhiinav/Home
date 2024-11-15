@@ -15,8 +15,8 @@ const items = [
         alt="Subjective World"
       />
     ),
-    title: "Lorem Ipsum",
-    summary: <>20XX-</>,
+    title: "iSchoolConnect",
+    summary: <>2024-2024</>,
   },
 ];
 
