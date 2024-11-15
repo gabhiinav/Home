@@ -4,6 +4,7 @@ import Tile from "./Tile";
 import Image from "next/image";
 import classNames from "classnames";
 import Avatar from "../../public/avatar.png";
+import iSchoolConnect from "../../public/ischoolconnect.png"
 
 const items = [
   {
@@ -11,8 +12,8 @@ const items = [
     icon: (
       <Image
         className="h-11 w-11 rounded-lg"
-        src={Avatar}
-        alt="Subjective World"
+        src={iSchoolConnect}
+        alt="iSC"
       />
     ),
     title: "iSchoolConnect",
