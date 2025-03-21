@@ -28,7 +28,7 @@ export default function ProfileTile({ className }: { className?: string }) {
             Abhinav
           </p>
 
-          <p className="mt-2 opacity-60">Web / iOS Developer</p>
+          <p className="mt-2 opacity-60">Software Developer</p>
 
           <button
             className="absolute right-5 bottom-5 rounded-full border border-gray-400/20 bg-white/40 p-3 dark:border-white/30 dark:bg-black/40"
