@@ -43,7 +43,6 @@ export default function BlogTile({ className }: { className?: string }) {
               <a
                 key={item.name}
                 className="mt-2 flex items-center overflow-hidden rounded-xl border border-gray-400/20 bg-white/40 p-4 hover:opacity-90 dark:border-white/30 dark:bg-black/30 item"
-                // href={item.url}
               >
                 {item.icon}
                 <div className="ml-3 flex flex-col">
