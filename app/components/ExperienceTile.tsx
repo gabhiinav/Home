@@ -4,7 +4,7 @@ import Tile from "./Tile";
 import Image from "next/image";
 import classNames from "classnames";
 
-import iSchoolConnect from "../../public/ischoolconnect.png
+import iSchoolConnect from "../../public/ischoolconnect.png"
 import PATH from "../../public/path.png"
 
 const items = [
