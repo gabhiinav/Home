@@ -3,18 +3,23 @@
 import Tile from "./Tile";
 import Image from "next/image";
 import classNames from "classnames";
-import Avatar from "../../public/avatar.png";
-import iSchoolConnect from "../../public/ischoolconnect.png"
+
+import iSchoolConnect from "../../public/ischoolconnect.png
+import PATH from "../../public/path.png"
 
 const items = [
+    {
+    name: "",
+    icon: (
+      <Image className="h-11 w-11 rounded-lg" src={PATH} alt="PATH" />
+    ),
+    title: "PATH",
+    summary: <>2025-</>,
+  },
   {
     name: "",
     icon: (
-      <Image
-        className="h-11 w-11 rounded-lg"
-        src={iSchoolConnect}
-        alt="iSC"
-      />
+      <Image className="h-11 w-11 rounded-lg" src={iSchoolConnect} alt="iSC" />
     ),
     title: "iSchoolConnect",
     summary: <>2024-2024</>,
