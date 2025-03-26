@@ -5,7 +5,7 @@ import {
   SiReact,
   SiTypescript,
   SiTailwindcss,
-  SiSwift,
+  SiAngular,
   SiPython,
   SiPostgresql,
 } from "@icons-pack/react-simple-icons";
@@ -17,32 +17,32 @@ const items = [
   {
     name: "react",
     icon: <SiReact className="h-7 w-7" />,
-    summary: "Along with Next.js for Full-Stack.",
+    summary: "React w/ NextJS",
   },
   {
     name: "typescript",
     icon: <SiTypescript className="h-6 w-6" />,
-    summary: "Go-to language.",
+    summary: "Typescript",
   },
   {
     name: "tailwindcss",
     icon: <SiTailwindcss className="h-6 w-6" />,
-    summary: "Go-to CSS tool.",
+    summary: "Tailwind CSS",
   },
   {
-    name: "swift",
-    icon: <SiSwift className="h-6 w-6" />,
-    summary: "For Apple Development. Often with SwiftUI.",
+    name: "angular",
+    icon: <SiAngular className="h-6 w-6" />,
+    summary: "Angular",
   },
   {
     name: "python",
     icon: <SiPython className="h-6 w-6" />,
-    summary: "Dabbling in ML/AI. Usually with Tensorflow.",
+    summary: "Python",
   },
   {
     name: "postgresql",
     icon: <SiPostgresql className="h-6 w-6" />,
-    summary: "",
+    summary: "SQL",
   },
 ];
 
