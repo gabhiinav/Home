@@ -3,7 +3,7 @@
 import Tile from "./Tile";
 import Image from "next/image";
 import avatar from "../../public/avatar.png";
-import chirp from "../../public/chirp.png";
+import lexiconrush from "../../public/lexiconrush.png";
 import forums from "../../public/forums.png";
 import { useState } from "react";
 import classNames from "classnames";
@@ -19,7 +19,11 @@ const items = [
   {
     name: "lexicon rush",
     icon: (
-      <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Lexicon Rush" />
+      <Image
+        className="h-11 w-11 rounded-lg"
+        src={lexiconrush}
+        alt="Lexicon Rush"
+      />
     ),
     url: "https://lexicon-rush.vercel.app/",
     title: "Lexicon Rush",
