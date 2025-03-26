@@ -3,7 +3,7 @@
 import Tile from "./Tile";
 import Image from "next/image";
 import avatar from "../../public/avatar.png";
-import chirp from "../../public/chirp.png"
+import chirp from "../../public/chirp.png";
 import forums from "../../public/forums.png";
 import { useState } from "react";
 import classNames from "classnames";
@@ -17,11 +17,13 @@ const items = [
     summary: <>Reddit-Clone</>,
   },
   {
-    name: "chirp",
-    icon: <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Chirp" />,
-    url: "https://chirp-kohl-gamma.vercel.app/",
-    title: "Chirp",
-    summary: <>Minimal Message Board</>,
+    name: "lexicon rush",
+    icon: (
+      <Image className="h-11 w-11 rounded-lg" src={chirp} alt="Lexicon Rush" />
+    ),
+    url: "https://lexicon-rush.vercel.app/",
+    title: "Lexicon Rush",
+    summary: <>Word Game</>,
   },
   {
     name: "home",
@@ -70,5 +72,3 @@ export default function ProjectsTile({ className }: { className?: string }) {
     </Tile>
   );
 }
-
-
