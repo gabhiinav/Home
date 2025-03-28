@@ -18,10 +18,10 @@ export default function ContactTile({ className }: { className?: string }) {
         <a href="https://github.com/gabhiinav">
           <SiGithub className="h-6 w-6 hover:text-purple-500" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/abhinav-gupta-1759b428a/">
           <SiLinkedin className="h-6 w-6 hover:text-[#E4405F]" />
         </a>
-        <a href="">
+        <a href="mailto:gabhiinav@gmail.com">
           <EnvelopeIcon className="h-7 w-7 hover:text-green-500" />
         </a>
       </div>
