@@ -19,7 +19,7 @@ const items = [
     name: "",
     icon: <Image className="h-11 w-11 rounded-lg" src={PATH} alt="PATH" />,
     title: "PATH",
-    summary: <>2025-</>,
+    summary: <>2025-2025</>,
   },
   {
     name: "",
