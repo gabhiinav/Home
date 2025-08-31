@@ -6,8 +6,15 @@ import classNames from "classnames";
 
 import iSchoolConnect from "../../public/ischoolconnect.png"
 import PATH from "../../public/path.png"
+import KPMG from "../../public/kpmg.png"
 
 const items = [
+  {
+    name: "",
+    icon: <Image className="h-11 w-11 rounded-lg" src={KPMG} alt="KPMG" />,
+    title: "KPMG",
+    summary: <>2025-</>,
+  },
   {
     name: "",
     icon: <Image className="h-11 w-11 rounded-lg" src={PATH} alt="PATH" />,

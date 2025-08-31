@@ -28,7 +28,7 @@ export default function Home() {
       </main>
 
       <footer className="text-md py-10 text-center text-sm opacity-60">
-        2024
+        2025
       </footer>
     </div>
   );
